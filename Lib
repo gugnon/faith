@@ -569,15 +569,15 @@ function library:InitNotifications(text, duration, callback)
         bar.BackgroundTransparency = 0.200
         bar.Size = UDim2.new(0, 0, 0, 1)
         if type == "notification" then
-            bar.BackgroundColor3 = Color3.fromRGB(159, 115, 255)
+            bar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
         elseif type == "alert" then
-            bar.BackgroundColor3 = Color3.fromRGB(255, 246, 112)
+            bar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
         elseif type == "error" then
-            bar.BackgroundColor3 = Color3.fromRGB(255, 74, 77)
+            bar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
         elseif type == "success" then
-            bar.BackgroundColor3 = Color3.fromRGB(131, 255, 103)
+            bar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
         elseif type == "information" then
-            bar.BackgroundColor3 = Color3.fromRGB(126, 117, 255)
+            bar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
         end
     
         barCorner.CornerRadius = UDim.new(0, 2)
@@ -604,7 +604,7 @@ function library:InitNotifications(text, duration, callback)
         notifText.Size = UDim2.new(0, 230, 0, 26)
         notifText.Font = Enum.Font.Code
         notifText.Text = text
-        notifText.TextColor3 = Color3.fromRGB(198, 198, 198)
+        notifText.TextColor3 = Color3.fromRGB(255, 255, 255)
         notifText.TextSize = 14.000
         notifText.TextTransparency = 1.000
         notifText.TextXAlignment = Enum.TextXAlignment.Left
