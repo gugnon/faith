@@ -565,7 +565,7 @@ function library:InitNotifications(text, duration, callback)
     
         bar.Name = "bar"
         bar.Parent = barFolder
-        bar.BackgroundColor3 = Color3.fromRGB(159, 115, 255)
+        bar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
         bar.BackgroundTransparency = 0.200
         bar.Size = UDim2.new(0, 0, 0, 1)
         if type == "notification" then
@@ -737,7 +737,7 @@ function library:Introduction()
     
     bar.Name = "bar"
     bar.Parent = barFolder
-    bar.BackgroundColor3 = Color3.fromRGB(159, 115, 255)
+    bar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     bar.BackgroundTransparency = 0.200
     bar.Size = UDim2.new(0, 0, 0, 1)
     
@@ -754,7 +754,7 @@ function library:Introduction()
     xsxLogo.Parent = background
     xsxLogo.AnchorPoint = Vector2.new(0.5, 0.5)
     xsxLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    xsxLogo.BackgroundTransparency = 1.000
+    xsxLogo.BackgroundTransparency = 1
     xsxLogo.Position = UDim2.new(0.5, 0, 0.5, 0)
     xsxLogo.Size = UDim2.new(0, 448, 0, 150)
     xsxLogo.Visible = true
@@ -766,7 +766,7 @@ function library:Introduction()
     hashLogo.Parent = background
     hashLogo.AnchorPoint = Vector2.new(0.5, 0.5)
     hashLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    hashLogo.BackgroundTransparency = 1.000
+    hashLogo.BackgroundTransparency = 1
     hashLogo.Position = UDim2.new(0.5, 0, 0.5, 0)
     hashLogo.Size = UDim2.new(0, 150, 0, 150)
     hashLogo.Visible = true
@@ -777,7 +777,7 @@ function library:Introduction()
     xsx.Name = "xsx"
     xsx.Parent = background
     xsx.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    xsx.BackgroundTransparency = 1.000
+    xsx.BackgroundTransparency = 1
     xsx.Size = UDim2.new(0, 80, 0, 21)
     xsx.Font = Enum.Font.Code
     xsx.Text = "powered by xsx"
@@ -957,7 +957,7 @@ function library:Init(key)
     tabButtonsEdge.Name = "tabButtonsEdge"
     tabButtonsEdge.Parent = background
     tabButtonsEdge.AnchorPoint = Vector2.new(0.5, 0.5)
-    tabButtonsEdge.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+    tabButtonsEdge.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     tabButtonsEdge.Position = UDim2.new(0.1435, 0, 0.536000013, 0)
     tabButtonsEdge.Size = UDim2.new(0, 152, 0, 360)
 
@@ -997,7 +997,7 @@ function library:Init(key)
     containerEdge.Name = "containerEdge"
     containerEdge.Parent = background
     containerEdge.AnchorPoint = Vector2.new(0.5, 0.5)
-    containerEdge.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+    containerEdge.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     containerEdge.Position = UDim2.new(0.637000024, 0, 0.536000013, 0)
     containerEdge.Size = UDim2.new(0, 414, 0, 360)
 
@@ -1008,7 +1008,7 @@ function library:Init(key)
     container.Name = "container"
     container.Parent = containerEdge
     container.AnchorPoint = Vector2.new(0.5, 0.5)
-    container.BackgroundColor3 = Color3.fromRGB(235, 235, 235)
+    container.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     container.Position = UDim2.new(0.5, 0, 0.5, 0)
     container.Size = UDim2.new(0, 412, 0, 358)
 
